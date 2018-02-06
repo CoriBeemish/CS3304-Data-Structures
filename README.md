@@ -1,4 +1,4 @@
-# CS3304-Data-Structures
+# CS3304: Data Structures
 All of my homework and labs from my data structures class.
 
 Labs that need to be revised:
