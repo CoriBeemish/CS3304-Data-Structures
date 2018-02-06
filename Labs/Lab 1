@@ -1,5 +1,8 @@
 Lab 1
 
 Problems:
-Write a program that displays a "Southern version" of hello world.
-Problem #8 on page 15 of the text
+- Write a program that displays a "Southern version" of hello world.
+- Problem #8 on page 15 of the text.
+     8. Write a program to print a conversion table from feet to meters. Use the temperature conversion program as the 
+        starting point (available online at www.cs.colorado.edu/~main/chapter1/temperature.cxx).
+
