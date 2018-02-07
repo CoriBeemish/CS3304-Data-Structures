@@ -8,3 +8,32 @@ page 95 of the text with the following modifications.
 
 For both problems, the class style of documentation (preconditions and postconditions) with each function protecting itself 
 need to be used. The test program needs to check all the functionality of each class using assertions.
+
+  16. Write a class to keep track of a balance in a
+      bank account with a varying annual interest
+      rate. The constructor will set both the balance
+      and the annual interest rate to some initial values
+      (with defaults of zero).
+      The class should have member functions to
+      change or retrieve the current balance or interest
+      rate. There should also be functions to make a deposit
+      (add to the balance) or a withdrawal (subtract
+      from the balance). Finally, there should be a function
+      that adds interest to the balance at the current interest
+      rate. This function should have a parameter
+      indicating how many years’ worth of interest are to
+      be added (for example, 0.5 years indicates that the
+      account should have six months’ interest added).
+      Use the class as part of an interactive program
+      that allows the user to determine how long an initial
+      balance will take to grow to a given value. The program
+      should allow the user to specify the initial balance,
+      the interest rate, and whether there are
+      additional yearly deposits.
+      
+  17. Specify, design, and implement a class
+      called date. Use integers to represent a
+      date’s month, day, and year. Write a member 
+      function to increment the date to the next day.
+      Include friend functions to display a date in both
+      number and word format.
