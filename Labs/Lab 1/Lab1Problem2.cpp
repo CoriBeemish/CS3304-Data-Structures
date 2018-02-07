@@ -1,4 +1,5 @@
-//Author: Cori Beemish
+//Author: Main & Savitch
+//Edited: Cori Beemish
 //Date: 01/13/2017
 //Lab 1 Problem 2
 
