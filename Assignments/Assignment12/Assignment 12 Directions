@@ -1,0 +1,17 @@
+Assignment 12
+
+The goal of this assignment is to reinforce graph concepts and algorithms. Specifically, the assignment is to do 
+problem 7 on page 780 of the text. Here is the way to read the data from a file. The queries that your code needs 
+to implement are:
+- list all the friends of a specified person
+    set<string> friends (const graph<string>& network const string& name);
+- list all the friends that 2 specified people have in common
+    set<string> common_friends (const graph<string>& network, const string& name1, const string& name2);
+- ist all the friends of the friends of a specified person
+    set<string> friends_of_friends ( const graph<string>& network const string& my_name);
+- dding a friend
+    void add_friend (graph<string>& network, const string& my_name, const string& new_friend);
+-removing a friend
+  void remove_friend (graph<string>& network, const string& my_name, const string& ex_friend);
+-determine whether someone is a friend
+  bool is_friend (const graph<string>& network, const string& my_name, const string& maybe_friend);
