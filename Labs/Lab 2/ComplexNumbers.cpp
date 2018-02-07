@@ -4,8 +4,6 @@
 #include <cassert>
 #include <cstdlib>
 
-//https://www.mathsisfun.com/numbers/complex-numbers.html
-
 int rational::get_real() const
 {
   return real;
