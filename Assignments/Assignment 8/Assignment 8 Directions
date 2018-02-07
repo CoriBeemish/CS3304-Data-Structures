@@ -1,0 +1,6 @@
+Assignment 8
+
+The goal of this assignment is to reinforce the tree data structure in C++. Specifically, the assignment is to do the following:
+Binary search trees have their best performance when they are balanced, which means that at each node, n, the height of the left 
+subtree of n is within one of the height of the right subtree of n.  Write a function (and a test program) which takes a sorted 
+list of entries and produces a balanced binary search tree.
