@@ -1,0 +1,10 @@
+Assignment 2
+
+The goal of assignment 1 is to reinforce classes in C++. Specifically, the assignment is to do problems 16 and 17 on 
+page 95 of the text with the following modifications.
+
+- For problem 16, do not construct an interactive program. Instead, create a test program using assertions.
+- For problem 17, the display functions should be not be friend functions – just regular free functions.
+
+For both problems, the class style of documentation (preconditions and postconditions) with each function protecting itself 
+need to be used. The test program needs to check all the functionality of each class using assertions.
