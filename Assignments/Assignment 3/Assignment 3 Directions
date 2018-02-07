@@ -1,0 +1,5 @@
+Assignment 3
+
+The goal of this assignment is to reinforce implementation of container class concepts in C++. Specifically, the 
+assignment is to create a static implementation of a set. Add the efficiency of each function to the documentation 
+in the header file Use test_set.cpp as your test program.
