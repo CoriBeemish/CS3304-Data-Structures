@@ -1,4 +1,4 @@
-// FILE: beemishBankAccount.cpp
+// FILE: bankAccount.cpp
 // AUTHOR: Cori Beemish
 // DATE: 06/15/2017
 // CLASS IMPLEMENTED: bankAccount.h (See bankAccount.h for documentation.)
