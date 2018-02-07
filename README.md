@@ -1,5 +1,5 @@
 # CS3304: Data Structures
-All of my homework assignments and labs from my data structures class, with addtionally revisions to make sure they are all correct.
+All of my homework assignments and labs from my data structures class, with addtional revisions.
 
 Labs that need to be revised:
 - ~~Lab 1~~
