@@ -1,0 +1,5 @@
+Lab 3
+
+The purpose of this lab is to help reinforce container class concepts in C++.  
+Specifically, the lab is to implement the sequence class from chapter 3.  
+You should use the author's header file and the author's test program (sequence_exam.cpp).
