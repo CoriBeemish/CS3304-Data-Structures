@@ -2,7 +2,7 @@
 All of my homework assignments and labs from my data structures class.
 
 Labs that need to be revised:
-- Lab 1
+- ~~Lab 1~~
 - Lab 2
 - Lab 3
 - Lab 4
