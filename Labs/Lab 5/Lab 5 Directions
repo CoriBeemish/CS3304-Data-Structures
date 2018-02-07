@@ -1,0 +1,5 @@
+Lab 5
+
+The purpose of this lab is to help reinforce container class concepts and linked list concepts in C++.
+Specifically, the lab to repeat the lab from last week except to use a linked list. You need to use the
+author's files sequence3.h and sequence_exam3.cpp.
