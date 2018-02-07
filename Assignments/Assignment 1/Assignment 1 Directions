@@ -1,0 +1,49 @@
+Assignment 1
+
+The goal of assignment 1 is to reinforce the beginning C++ concepts and efficiency of algorithms concepts. Specifically, the assignment is to do the following:
+Write a C++ program that will calculate and display the areas of some standard geometric figures. Specifically, the program needs to display the areas of the following geometric figures for length of side 1, 2, 3, 4, 5, and 6 (36 total results). You need to have a separate area function for each geometric figure. Each function needs to “protect itself” from a violation of its precondition.
+- equilateral triangle
+- square
+- regular pentagon
+- regular hexagon
+- regular heptagon
+- regular octagon
+
+For each of the following code fragments, give an analysis of the running time (Big-Oh notation). Be sure to show your work.
+- sum = 0;
+    for (int i = 0; i < n + 2; i++)
+      sum++;
+
+sum = 0;
+
+for (int i = 0; i < n; i++)
+
+for (int j = 0; j < n; j++)
+
+sum++;
+
+sum = 0;
+for (int i = 0; i < n; i++)
+for (int j = 0; j < i; j++)
+sum++;
+
+sum = 0;
+for (int i = 0; i < n*n; i++)
+for (int j = 0; j < i; j++)
+sum++;
+
+sum 0;
+for (int i = 0; i < n*n; i++)
+for (int j = 0; j < i; j++)
+for (int k = 0; k < j; k++)
+sum++;
+
+sum = 0;
+for (int i = 0; i < n; i++)
+for (int j = 0; j < i*i; j++)
+if (j % i == 0)
+for (k = 0; k < j; k++)
+sum++;
+
+
+Please email your submission to your instructor by 8:00 am on Thursday, January 19th.
