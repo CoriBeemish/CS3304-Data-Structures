@@ -2,3 +2,13 @@ Lab 2
 
 The purpose of this lab is to reinforce the concept of constructing a class in C++. 
 Specifically, the problem is to do problem 19 on page 95 of the text.
+
+    19. Write a class for complex numbers. A complex
+    number has the form a + bi, where a
+    and b are real numbers and i is the square
+    root of -1. We refer to a as the real part and b as
+    the imaginary part of the number. The class should
+    have two data members to represent the real and
+    imaginary numbers; the constructor takes two arguments
+    to set these members. Discuss and implement
+    other appropriate operators for this class.
