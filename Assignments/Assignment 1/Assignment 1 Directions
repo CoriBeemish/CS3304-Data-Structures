@@ -14,36 +14,30 @@ For each of the following code fragments, give an analysis of the running time (
     for (int i = 0; i < n + 2; i++)
       sum++;
 
-sum = 0;
+- sum = 0;
+    for (int i = 0; i < n; i++)
+        for (int j = 0; j < n; j++)
+            sum++;
 
-for (int i = 0; i < n; i++)
+- sum = 0;
+    for (int i = 0; i < n; i++)
+        for (int j = 0; j < i; j++)
+            sum++;
 
-for (int j = 0; j < n; j++)
+- sum = 0;
+    for (int i = 0; i < n*n; i++)
+        for (int j = 0; j < i; j++)
+            sum++;
 
-sum++;
+- sum 0;
+    for (int i = 0; i < n*n; i++)
+        for (int j = 0; j < i; j++)
+            for (int k = 0; k < j; k++)
+                sum++;
 
-sum = 0;
-for (int i = 0; i < n; i++)
-for (int j = 0; j < i; j++)
-sum++;
-
-sum = 0;
-for (int i = 0; i < n*n; i++)
-for (int j = 0; j < i; j++)
-sum++;
-
-sum 0;
-for (int i = 0; i < n*n; i++)
-for (int j = 0; j < i; j++)
-for (int k = 0; k < j; k++)
-sum++;
-
-sum = 0;
-for (int i = 0; i < n; i++)
-for (int j = 0; j < i*i; j++)
-if (j % i == 0)
-for (k = 0; k < j; k++)
-sum++;
-
-
-Please email your submission to your instructor by 8:00 am on Thursday, January 19th.
+- sum = 0;
+    for (int i = 0; i < n; i++)
+        for (int j = 0; j < i*i; j++)
+            if (j % i == 0)
+                for (k = 0; k < j; k++)
+                    sum++;
