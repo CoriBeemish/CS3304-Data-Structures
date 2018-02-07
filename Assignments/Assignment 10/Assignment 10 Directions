@@ -1,4 +1,0 @@
-Assignment 10
-
-The goal of this assignment is to reinforce hash tables in C++. Specifically, the assignment is to implement the 
-author's table2 using the STL list class instead of the author's list class.
