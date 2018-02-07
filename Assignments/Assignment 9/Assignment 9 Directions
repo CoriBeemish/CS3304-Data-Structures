@@ -1,0 +1,5 @@
+Assignment 9
+
+The goal of this assignment is to reinforce the tree data structure in C++. Specifically, the assignment is to do the following:
+Construct a function that will display a binary tree by levels (each level on a separate line). If there is no node at a position 
+in a level, then the function should display NULL. Only levels that contain at least 1 datum should be displayed.
