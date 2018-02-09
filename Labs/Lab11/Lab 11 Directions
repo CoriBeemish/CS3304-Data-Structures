@@ -5,10 +5,10 @@ to problem 2 on page 582 of the text. Note that you will need to implement a hea
 dynamic array) and then use the heap class to implement a priority queue.  You need to construct a test program to 
 help test the correctness of your code. You need to use heap.h and priority_queue.h.
 
- 2. Repeat Project 1, with no predefined limit
+     2. Repeat Project 1, with no predefined limit
 	on the size of the heap. Use a dynamic array.
 
- 1. Using a heap, implement the priority queue
+     1. Using a heap, implement the priority queue
 	class from Section 8.4. The class should
 	have a static constant member variable,
 	CAPACITY, which is the maximum size of the heap
