@@ -1,0 +1,10 @@
+Lab 14
+
+The purpose of this lab is to help reinforce graph algorithms in C++.  
+Specifically, the lab is to problem 4 page 780 of the text.  
+
+4. Implement a function with three arguments:
+   a graph, a starting vertex number, and an
+   ending vertex number. The function determines
+   whether there is a directed path from the starting
+   vertex to the ending vertex.
