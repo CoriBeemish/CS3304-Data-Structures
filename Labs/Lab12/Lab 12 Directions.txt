@@ -1,0 +1,43 @@
+Lab 12
+
+The purpose of this lab is to help reinforce hash tables implementations in C++.  Specifically, the lab is 
+to problems 3 and 4 on page 628 of the text. 
+
+ 3. Use double hashing to reimplement the
+	hash table from Figure 12.4 on page 604.
+
+  4.In our open-address hash tables, we have
+	used linear probing or double hashing.
+	Another probing method, which avoids
+	some clustering, is called quadratic probing. The
+	simplest version of quadratic probing works like
+	this: Start by hashing the key to an array index. If
+	there is a collision, then move to the next array
+	index. If there is a second collision, then move
+	forward two more spots through the array. After a
+	third collision, we move forward three more spots,
+	and so on. For example, suppose that a new key
+	hashes to location 327, and this location is full. The
+	next location that we try is 328. If 328 is a second
+	collision, then we move two spots forward to location
+	330. If 330 is a third collision, then we move
+	three spots forward to location 333. If our calculation
+	of the next spot takes us beyond the end of the
+	array, then we “wrap around” to the front of the
+	array (similar to double hashing). In general, if
+	data[i] is the location that has just caused a collision,
+	and we have already examined count elements,
+	then we increase i according to the
+	assignment:
+	
+	  i = (i + count) % CAPACITY;
+	
+	In this formula, the “% CAPACITY” causes the
+	“wraparound” to the front of the array. In order for
+	this approach to work correctly, the capacity must be
+	a power of 2, such as . Otherwise, the
+	sequence of probes does not correctly examine all
+	array items.
+	For this project, use quadratic hashing to reimplement
+	the hash table from Figure 12.4 on
+	page 604.

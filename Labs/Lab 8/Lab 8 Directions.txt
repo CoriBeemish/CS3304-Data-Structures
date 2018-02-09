@@ -1,0 +1,4 @@
+Lab 8
+
+The purpose of this lab is to help reinforce linear data structure implementations in C++.  Specifically, the lab 
+is to construct a C++ implementation of a static deque class. The header file that we will use is here.
