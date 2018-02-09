@@ -1,8 +1,8 @@
 # CS3304: Data Structures
 All of my homework assignments and labs from my data structures class, with addtional revisions.
 
-|         Labs  | Date Created  | Content Cell  | Assignments   |  Date Created | 
-| ------------- | ------------- | ------------- | ------------- | ------------- | 
+|         Labs  | Date Created  |   | Assignments   |  Date Created | 
+| ------------- | ------------- | - | ------------- | ------------- | 
 | ~~Lab 1~~  |   | Content Cell  |
 | Lab 2 | Content Cell  | Content Cell  | 
 | Lab 3 | Content Cell  | Content Cell  | 
