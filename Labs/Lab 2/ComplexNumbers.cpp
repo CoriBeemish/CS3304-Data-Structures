@@ -1,45 +1,61 @@
-//FILE: complexNumbers.cpp
+// FILE: complexNumbers.cpp
+// AUTHOR: Cori Beemish
+// DATE: 06/02/2017
 
-#include "ComplexNumbers.h"
+#include "complexNumbers.h"
+
+#include <iostream>
 #include <cassert>
-#include <cstdlib>
+#include <cmath>
 
-int rational::get_real() const
+complex::complex (double real, double imag)
 {
-  return real;
+    realNum = real;
+    imagNum = imag;
 }
 
-int rational::get_imag() const
+double complex::get_real() const
 {
-  return imag;
+    return realNum;
+}
+
+double complex::get_imag() const
+{
+    return imagNum;
 }
 
 complex operator + (const complex& c1, const complex& c2)
 {
-  int r = c1.get_real() + c2.get_real();
-  int i = c1.get_imag() + c2.get_imag();
-  return complex (r, i);
+  double real = c1.get_real() + c2.get_real();
+  double imag = c1.get_imag() + c2.get_imag();
+  //std::cout << "The sum is:          " << real << " + " << imag << "i" << std::endl; //CHECKING
+  return complex (real, imag);
 }
 
 complex operator - (const complex& c1, const complex& c2)
 {
-  int r = c1.get_real() - c2.get_real();
-  int i = c1.get_imag() - c2.get_imag();
-  return complex (r, i);
+  double real = c1.get_real() - c2.get_real();
+  double imag = c1.get_imag() - c2.get_imag();
+  //std::cout << "The difference is:  " << real << " + " << imag << "i." << std::endl; //CHECKING
+  return complex (real, imag);
 }
 
 complex operator * (const complex& c1, const complex& c2)
 {
-  double part1 = (c1.get_real() * c2.get_real()) + (c1.get_imag() * c2.get_imag());
-  double part2 =
-  int r =  ;
-  int i = c1.get_imag() * c2.get_imag();
-  return complex (r, i);
+  double real = (c1.get_real() * c2.get_real()) - (c1.get_imag() * c2.get_imag()) ;
+  double imag = (c1.get_real() * c2.get_real()) + (c1.get_imag() * c2.get_imag());
+  //std::cout << "The product is:     " << real << " + " << imag << "i." << std::endl; //CHECKING
+  return complex (real, imag);
 }
+
 complex operator / (const complex& c1, const complex& c2)
 {
-  assert (c2.get_num() != 0);
-  int r = c1.get_num() * c2.get_denom();
-  int i = c1.get_denom() * c2.get_num();
-  return complex (r, i);
+  assert (c1.get_real() != 0 || c1.get_imag() != 0);
+
+  double real = (c1.get_real() * c2.get_real()) + (c1.get_imag() * c2.get_imag()) ;
+  double imag = c2.get_real() * c1.get_imag() - c1.get_real() * c2.get_imag() ;
+  double denom = c2.get_real() * c2.get_real() + c2.get_imag() * c2.get_imag() ;
+
+  //std::cout << "The quotient is:    " << real/denom << " + " << imag/denom << "i." << std::endl; //CHECKING
+  return complex (real/denom, imag/denom);
 }
