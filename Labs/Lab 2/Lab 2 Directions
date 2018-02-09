@@ -1,7 +1,7 @@
 Lab 2
 
-The purpose of this lab is to reinforce the concept of constructing a class in C++. 
-Specifically, the problem is to do problem 19 on page 95 of the text.
+The purpose of this lab is to reinforce the concept of constructing a class in C++. Specifically, the problem is to do problem 19 
+on page 95 of the text.
 
     19. Write a class for complex numbers. A complex
     number has the form a + bi, where a
