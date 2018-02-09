@@ -1,4 +1,5 @@
-//FILE: ComplexNumbers.h
+// FILE: ComplexNumbers.h
+// AUTHOR: Main & Savitch
 
 #ifndef COMPLEX_H_INCLUDED
 #define COMPLEX_H_INCLUDED
