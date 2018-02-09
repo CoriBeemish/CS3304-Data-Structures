@@ -3,6 +3,7 @@ Lab 10
 The purpose of this lab is to help reinforce tree implementations in C++.  Specifically, the lab is to 
 implement the breadth-first algorithm for a binary tree.  Specifically, a new free function needs to added 
 to the author's binary_tree_node class and the signature for this function should be
+
 template <class Process, class BTNode> 
 void breadthfirst(Process f, BTNode* node_ptr)
 
