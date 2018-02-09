@@ -1,22 +1,23 @@
 # CS3304: Data Structures
 All of my homework assignments and labs from my data structures class, with addtional revisions.
 
-Labs that need to be revised:
-- ~~Lab 1~~
-- Lab 2
-- Lab 3
-- Lab 4
-- Lab 5
-- Lab 6
-- Lab 7
-- Lab 8
-- Lab 9
-- Lab 10
-- Lab 11
-- Lab 12
-- Lab 13
-- Lab 14
-- Lab 15
+| Labs  | Date Created | Content Cell  | Assignments | Date Created | 
+| ------------- | ------------- | ------------- | 
+| ~~Lab 1~~  |   | Content Cell  |
+| Lab 2 | Content Cell  | Content Cell  | 
+| Lab 3 | Content Cell  | Content Cell  | 
+| Lab 4 | Content Cell  | Content Cell  | 
+| Lab 5 | Content Cell  | Content Cell  | 
+| Lab 6 | Content Cell  | Content Cell  | 
+| Lab 7 | Content Cell  | Content Cell  | 
+| Lab 8 | Content Cell  | Content Cell  | 
+| Lab 9 | Content Cell  | Content Cell  |
+| Lab 10 | Content Cell  | Content Cell  |
+| Lab 11 | Content Cell  | Content Cell  | 
+| Lab 12 | Content Cell  | Content Cell  | 
+| Lab 13 | Content Cell  | Content Cell  | 
+| Lab 14 | Content Cell  | Content Cell  | 
+| Lab 15 | Content Cell  | Content Cell  |
 
 Assignments that need to be revised
 - ~~Assignment 1~~
