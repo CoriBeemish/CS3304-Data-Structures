@@ -1,7 +1,6 @@
 // AUTHOR: Main & Savitch
 
 #include "set.h"
-#include "set.cpp"
 #include <cassert>
 #include <iostream>
 
