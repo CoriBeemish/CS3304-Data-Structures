@@ -6,7 +6,7 @@ All of my homework assignments and labs from my data structures class, with addt
 | ~~Lab 1~~     | 05/30/2017    | 02/06/2018    |   | ~~Assignment 1~~  | 06/02/2017    | 02/06/2018    |
 | ~~Lab 2~~     | 06/02/2017    | 02/09/2018    |   | ~~Assignment 2~~  | 06/07/2017    | 02/06/2018    |
 | Lab 3         | 06/06/2017    |               |   | ~~Assignment 3~~  | 06/13/2017    | 02/09/2018    |
-| Lab 4         | 06/11/2017    |               |   | Assignment 4      | 06/22/2017    |               |
+| Lab 4         | 06/11/2017    |               |   | ~~Assignment 4~~  | 06/22/2017    | 02/09/2018    |
 | Lab 5         | 06/13/2017    |               |   | Assignment 5      |               |               |
 | Lab 6         |               |               |   | Assignment 6      |               |               |
 | Lab 7         |               |               |   | Assignment 7      |               |               |
