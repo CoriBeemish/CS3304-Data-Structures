@@ -1,7 +1,6 @@
 // FILE: test_set.cpp
 
 #include "set.h"
-#include "set.cpp"
 #include <cassert>
 #include <iostream>
 
